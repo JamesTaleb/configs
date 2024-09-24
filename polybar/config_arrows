@@ -203,7 +203,7 @@ margin-bottom = 0
 
 [module/weather]
 type = custom/script
-exec = /home/james/.config/i3blocks/weather_forecast/weather_forecast
+exec = /home/${USER}/.config/i3blocks/weather_forecast/weather_forecast
 interval = 3600
 ;label-font = 3
 format-foreground = ${colors.textdark}
@@ -211,7 +211,7 @@ format-background = ${colors.arrow1}
 
 [module/bat]
 type = custom/script
-exec = /home/james/.config/i3blocks/battery/battery
+exec = /home/${USER}/.config/i3blocks/battery/battery
 interval = 10
 format-prefix = " "
 format-foreground = ${colors.textdark}
@@ -220,7 +220,7 @@ format-padding = 0
 
 [module/mediaplayer]
 type = custom/script
-exec = /home/james/.config/i3blocks/mediaplayer/mediaplayer
+exec = /home/${USER}/.config/i3blocks/mediaplayer/mediaplayer
 format-foreground = ${colors.textlight}
 interval = 10
 format-padding = 1
